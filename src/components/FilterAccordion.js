@@ -54,9 +54,14 @@ const FilterAccordion = ({ title, options }) => {
                   id={`checkbox-${index}`}
                   name={option}
                   value={option}
-                  style={{cursor: "pointer"}}
+                  style={{ cursor: "pointer" }}
                 />
-                <label style={{cursor: "pointer"}} htmlFor={`checkbox-${index}`}>{option}</label>
+                <label
+                  style={{ cursor: "pointer" }}
+                  htmlFor={`checkbox-${index}`}
+                >
+                  {option}
+                </label>
               </div>
             ))
           ) : (

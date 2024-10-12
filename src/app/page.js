@@ -45,11 +45,17 @@ export default function Home() {
       />
       <div className="gridContainer">
         {filterVisible && (
-          <div className="sideBarFilter" style={{ width: "20%", padding: "10px" }}>
+          <div
+            className="sideBarFilter"
+            style={{ width: "20%", padding: "10px" }}
+          >
             <SideBarFilter />
           </div>
         )}
-        <div className= {{filterVisible} ? "sideBarActive" : "sideBarDeactive"} style={{ width: filterVisible ? "80%" : "100%" }}>
+        <div
+          className={{ filterVisible } ? "sideBarActive" : "sideBarDeactive"}
+          style={{ width: filterVisible ? "80%" : "100%" }}
+        >
           <ProductGrid products={products} />
         </div>
       </div>

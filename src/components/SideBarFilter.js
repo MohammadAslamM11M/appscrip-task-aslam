@@ -40,9 +40,7 @@ const SideBarFilter = () => {
 
   return (
     <div>
-      <div
-      className="sideBar"
-      >
+      <div className="sideBar">
         <input type="checkbox" />
         <label>customizble</label>
       </div>

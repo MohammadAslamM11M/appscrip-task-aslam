@@ -60,7 +60,7 @@ const Footer = () => {
           />
           <h2>mettā muse Accepts</h2>
           <img
-          className="paymentMethodImg"
+            className="paymentMethodImg"
             src="/paymentMethods.png"
             alt="social media"
           />
