@@ -1,0 +1,19 @@
+.sideBar {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0 25px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+@media screen and (max-width: 767px) {
+  .sideBar {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0 25px 0;
+    border-bottom: 1px solid lightgray;
+    background-color: white !important;
+    z-index: 100;
+  }
+}

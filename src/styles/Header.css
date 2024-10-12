@@ -1,0 +1,71 @@
+.headerStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem 5rem;
+}
+
+.logoIconStyle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  img[src="/hamburgerIcon.png"] {
+    display: none;
+  }
+}
+
+.logoTextStyle {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iconStyle {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  text-align: end;
+  cursor: pointer;
+}
+
+.languageSelector {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .logoTextStyle {
+    font-size: 26px;
+  }
+
+  .languageSelector,
+  .iconStyle img[src="/profileIcon.png"],
+  .iconStyle img[src="/downArrowIcon.png"] {
+    display: none;
+  }
+  .headerStyle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    /* padding: 1rem 2rem; */
+  }
+  .iconStyle {
+    gap: 10px;
+    img {
+      width: 1.3rem !important;
+      height: 1.3rem !important;
+    }
+  }
+  .logoIconStyle img[src="/hamburgerIcon.png"] {
+    display: block;
+    padding-right: 4px;
+  }
+  .logoIconStyle {
+    img {
+      width: 1.5rem !important;
+      height: 1.5rem !important;
+    }
+  }
+}

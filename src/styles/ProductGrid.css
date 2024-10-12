@@ -1,0 +1,70 @@
+.gridStyle {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 0px 20px;
+}
+
+.cardStyle {
+  text-align: center;
+  cursor: pointer;
+  width: 300px;
+  height: 450px;
+}
+
+.imageStyle {
+  max-width: 100%;
+  width: 300px;
+  height: 380px;
+  padding: 10px;
+}
+
+.productTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: start;
+}
+
+.signInMessage {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  line-height: 0px;
+  color: grey;
+}
+
+@media screen and (max-width: 767px) {
+  .gridStyle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 0px 10px;
+  }
+
+  .cardStyle {
+    width: 170px;
+    height: 250px;
+  }
+
+  .imageStyle {
+    width: 140px;
+    height: 180px;
+  }
+
+  .productTitle {
+    font-size: 14px;
+  }
+
+  .signInMessage {
+    font-size: 10px;
+    justify-content: start;
+    gap: 0px;
+    line-height: 12px;
+    text-align: start;
+  }
+}

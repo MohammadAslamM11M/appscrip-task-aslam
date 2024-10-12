@@ -1,0 +1,46 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+.inter-light {
+  font-weight: 300;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.inter-bold {
+  font-weight: 700;
+}
+
+.inter-optical {
+  font-optical-sizing: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}

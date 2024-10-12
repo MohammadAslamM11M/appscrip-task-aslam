@@ -1,0 +1,16 @@
+.gridContainer {
+  display: flex !important;
+  margin: 0 70px !important;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .gridContainer {
+    margin: 0 1px !important;
+  }
+  .sideBarFilter{
+    width: 200px;
+    background-color: white;
+    z-index: 1000;
+  }
+}

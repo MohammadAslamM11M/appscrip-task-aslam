@@ -1,0 +1,132 @@
+.footerSytle {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 3rem 5rem;
+}
+
+.subscriptionGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  border-bottom: 2px solid lightgray;
+  padding: 1rem 0;
+}
+
+.emailInput {
+  margin: 1rem 0.5rem 1rem 0;
+  padding: 0.7rem 0.5rem;
+  width: 50%;
+  font-size: 16px;
+}
+
+.subButton {
+  margin: 1rem 0.5rem 1rem 0;
+  padding: 0.7rem 0.5rem;
+  width: auto;
+  font-size: 16px;
+  background-color: black;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.quickLinkGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.3fr;
+  padding: 1rem 0;
+}
+
+.flagAndCurrency {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.paymentMethodImg {
+  width: 400px;
+}
+
+.copyrightInfo {
+  text-align: center;
+  padding: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footerSytle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 0.2rem 1rem;
+  }
+
+  .subscriptionGrid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 2px solid lightgray;
+    padding: 1rem 0;
+  }
+
+  .subscriptionGrid p{
+    font-size: 12px;
+  }
+  
+  .subscriptionGrid h2{
+    font-size: 16px;
+  }
+
+  .emailInput {
+    margin: 1rem 0.5rem 1rem 0;
+    padding: 0.7rem 0.5rem;
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .subButton {
+    margin: 1rem 0.5rem 1rem 0;
+    padding: 0.7rem 0.5rem;
+    width: auto;
+    font-size: 16px;
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+
+  .quickLinkGrid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+  }
+
+  .quickLinkGrid p{
+    font-size: 12px;
+  }
+  
+  .quickLinkGrid h2{
+    font-size: 16px;
+  }
+
+  .flagAndCurrency {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .paymentMethodImg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .copyrightInfo {
+    font-size: 12px;
+    padding: 1rem;
+  }
+}

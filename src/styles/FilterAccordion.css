@@ -1,0 +1,41 @@
+.sideBarFilter{
+    padding: 15px 0;
+    text-transform: uppercase;
+    line-height: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.dropdownHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdownArrow{
+    width: 16px;
+    height: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .sideBarFilter{
+        padding: 15px 0;
+        text-transform: uppercase;
+        line-height: 20px;
+        border-bottom: 1px solid lightgray;
+        cursor: pointer;
+        background-color: white;
+        z-index: 1;
+    }
+    
+    .dropdownHeading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .dropdownArrow{
+        width: 16px;
+        height: 16px;
+    }
+}
